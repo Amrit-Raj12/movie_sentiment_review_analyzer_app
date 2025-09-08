@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://movie-sentiment-review-analyzer-server.onrender.com/'
