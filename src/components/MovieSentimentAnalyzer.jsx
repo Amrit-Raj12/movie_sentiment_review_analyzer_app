@@ -8,7 +8,6 @@ export default function MovieSentimentAnalyzer() {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [result, setResult] = useState(null);
   const [confidence, setConfidence] = useState(0);
-
   const handleAnalyze = async () => {
     if (!review.trim()) return;
 
