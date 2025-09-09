@@ -1,5 +1,4 @@
 
-
 import  { useState } from 'react';
 import { Sparkles, Film, ThumbsUp, ThumbsDown, Zap, Brain } from 'lucide-react';
 import { BASE_URL } from '../constant/API';
