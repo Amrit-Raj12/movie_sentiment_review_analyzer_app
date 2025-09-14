@@ -48,7 +48,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: ${{ secrets.DOCKERHUB_USERNAME }}/movie-analyzer
+        images: ${{ secrets.DOCKER_USERNAME }}/movie-analyzer
         tags: |
           type=raw,value=dev
           type=sha,prefix=dev-
