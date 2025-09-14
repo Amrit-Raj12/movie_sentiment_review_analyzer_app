@@ -24,9 +24,7 @@ jobs:
       run: npm ci
       
     - name: Run tests
-      run: npm run test -- --coverage
-      env:
-        CI: true
+      run: npm run test -- --run
 
   build-and-push:
     needs: test
