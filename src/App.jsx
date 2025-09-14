@@ -18,9 +18,9 @@ function App() {
   );
 
   return (
-    <>
-      <MovieSentimentAnalyzer />
-          </>
+        <>
+          <MovieSentimentAnalyzer />
+        </>
   )
 }
 
