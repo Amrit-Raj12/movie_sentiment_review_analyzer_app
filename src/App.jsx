@@ -22,6 +22,6 @@ function App() {
           <MovieSentimentAnalyzer />
         </>
   )
-}
+} 
 
 export default App
