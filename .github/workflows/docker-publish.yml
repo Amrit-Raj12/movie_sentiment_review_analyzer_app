@@ -51,7 +51,7 @@ jobs:
         images: ${{ secrets.DOCKERHUB_USERNAME }}/movie-analyzer
         tags: |
           type=ref,event=branch
-          type=sha,prefix={{branch}}-
+          type=sha,prefix=dev-
           type=raw,value=latest,enable={{is_default_branch}}
           
     - name: Build and push Docker image
